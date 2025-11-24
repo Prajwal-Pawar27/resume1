@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
-import profileImage from "@/assets/profile.jpg";
 
 const Index = () => {
   return (
@@ -17,7 +16,7 @@ const Index = () => {
         <div className="relative mb-8 group">
           <div className="absolute inset-0 bg-gradient-to-r from-primary via-accent to-secondary rounded-full blur-xl opacity-60 group-hover:opacity-80 transition-opacity duration-500 animate-pulse" />
           <img
-            src={profileImage}
+            src="/profile.jpg"
             alt="Profile"
             className="relative w-48 h-48 rounded-full object-cover border-4 border-background/50 shadow-2xl transform group-hover:scale-105 transition-transform duration-500"
           />
